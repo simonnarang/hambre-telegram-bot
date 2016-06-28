@@ -2,7 +2,6 @@
 ©Copyright NaWang Labs All Right Reservered by Simon Narang and Will Wang
 */
 
-
 //Import important Dependencies
 
 import Foundation
@@ -88,7 +87,7 @@ router["Help"] = { context in
     
     var button5 = KeyboardButton()
     
-    button5.text = "Games"
+    button5.text = "Wait"
     
     var button6 = KeyboardButton()
     
@@ -113,12 +112,12 @@ router["Greet"] = { context in
 router["Start"] = { context in
     
     guard var from = context.message?.from else { return false }
-    context.respondAsync("Hello there, \(from.first_name)! Nice to meet you!")
+    context.respondAsync("Hello there, \(from.first_name)! Nice to meet you! I would recommend typing in 'Help' so you can see my functions")
     
     return true
 }
 
-router["Games"] = { context in
+router["Wait"] = { context in
     
     var markup = ReplyKeyboardMarkup()
     
@@ -126,11 +125,11 @@ router["Games"] = { context in
     
     var button1 = KeyboardButton()
     
-    button1.text = "20 Questions: \n I guess"
+    button1.text = "RPG"
     
     var button2 = KeyboardButton()
     
-    button2.text = "20 Questions: \n you guess"
+    button2.text = "MoretoCome"
     
     var button3 = KeyboardButton()
     
@@ -140,11 +139,28 @@ router["Games"] = { context in
                               [button3]
     ]
 
-    context.respondAsync("var's play some games!", ["reply_markup": markup])
+    context.respondAsync("Let's waste some time!", ["reply_markup": markup])
     
     return true
 }
+router["RPG"] = { context in
+    var markup = ReplyKeyboardMarkup()
+    context.respondAsync("You walk into a room and find a broken table.", ["reply_markup": markup])
+    var button1 = KeyboardButton()
+    button1.text = "ExploreTheRoom"
+    var button2 = KeyboardButton()
+    button2.text = "LeaveTheRoom"
+    var button3 = KeyboardButton()
+    button3.text = "⬅"
+    
+    markup.keyboard = [[button1, button2],
+                       [button3]
+    ]
+    
+    context.respondAsync("Here are your options", ["reply_markup": markup])
 
+    return true
+}
 router["About"] = { context in
     context.respondAsync("I am designed by NaWang Labs to help you find scrumptious meals around you!")
     return true
