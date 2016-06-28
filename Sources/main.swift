@@ -14,7 +14,7 @@ import SwiftyJSON
 
 //Telgram-API Setup
 
-var bot = TelegramBot(token: "205431240:AAH12fgfbpCa0aqPy-wYwn9F11H-HMX2HX0")
+var bot = TelegramBot(token: "ACCESS DENIED")
 
 var router = Router(bot: bot)
 
