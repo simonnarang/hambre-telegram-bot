@@ -231,7 +231,17 @@ router["Find"] = { context in
     return true
     
 }
+router["test"] = { context in
+    context.respondAsync("Give me ur location")
+    guard let chatId = context.chatId else { return false }
+    guard started(in: chatId) else { return false }
+    
+    let text = context.args.scanRestOfString()
+    
+    context.respondAsync(String(text.characters()))
+    return true
 
+}
 //Print to show that console is working
 print("Ready to accept commands")
 
