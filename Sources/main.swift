@@ -32,36 +32,28 @@ router["⬅"] = { context in
     context.respondAsync("Here are possible functions", ["reply_markup": markup])
     
     var button1 = KeyboardButton()
-    
     button1.text = "Start"
     
     var button2 = KeyboardButton()
-    
     button2.text = "Greet"
     
     var button3 = KeyboardButton()
-    
     button3.text = "Settings"
     
     var button4 = KeyboardButton()
-    
     button4.text = "About"
     
     var button5 = KeyboardButton()
-    
     button5.text = "Wait"
     
     var button6 = KeyboardButton()
-    
     button6.text = "Find"
     
     //Keyboard Layout
     markup.keyboard = [ [ button1, button2, button3 ],
                         [ button4, button5, button6 ],
     ]
-    
     context.respondAsync("Try them!", ["reply_markup": markup])
-    
     return true
 }
 
@@ -73,32 +65,25 @@ router["Help"] = { context in
     context.respondAsync("Here are possible functions", ["reply_markup": markup])
     
     var button1 = KeyboardButton()
-    
     button1.text = "Start"
     
     var button2 = KeyboardButton()
-    
     button2.text = "Greet"
     
     var button3 = KeyboardButton()
-    
     button3.text = "Settings"
     
     var button4 = KeyboardButton()
-    
     button4.text = "About"
     
     var button5 = KeyboardButton()
-    
     button5.text = "Wait"
     
     var button6 = KeyboardButton()
-    
     button6.text = "Find"
     
     markup.keyboard = [ [ button1, button2, button3 ],
                         [ button4, button5, button6 ],
-                        
     ]
     
     context.respondAsync("Try them!", ["reply_markup": markup])
@@ -113,7 +98,6 @@ router["Greet"] = { context in
 }
 
 router["Start"] = { context in
-    
     guard var from = context.message?.from else { return false }
     context.respondAsync("Hello there, \(from.first_name)! Nice to meet you! I would recommend typing in 'Help' so you can see my functions")
     
@@ -135,25 +119,18 @@ router["About"] = { context in
 router["Settings"] = { context in
     
     var markup = ReplyKeyboardMarkup()
-    
     context.respondAsync("Settings", ["reply_markup": markup])
     
     var button1 = KeyboardButton()
-    
     button1.text = "Send Contact"
-    
     button1.request_contact = true
     
     var button2 = KeyboardButton()
-    
     button2.text = "Send Location"
-    
     button2.request_location = true
     
     var button3 = KeyboardButton()
-    
     button3.text = "⬅"
-    
     markup.keyboard = [ [ button1, button2 ],
                         [ button3]
     ]
@@ -223,7 +200,7 @@ router["Find"] = { context in
     button10.text = "⬅"
     
     markup.keyboard = [ [ button1, button2, button3 ],
-                        [ button4, button5, button10 ]
+                        [ button10, button4, button5 ]
     ]
     
     context.respondAsync("Here are the options", ["reply_markup": markup])
