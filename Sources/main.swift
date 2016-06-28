@@ -1,8 +1,8 @@
 /*
-©Copyright NaWang Labs All Right Reservered by Simon Narang and Will Wang
-*/
+ ©Copyright NaWang Labs All Right Reservered by Simon Narang and Will Wang
+ */
 
-//Import important Dependencies
+//Import Important Dependencies
 
 import Foundation
 
@@ -10,17 +10,19 @@ import TelegramBot
 
 import SwiftyJSON
 
-//telgram API setup
+
+//Telgram-API Setup
+
 var bot = TelegramBot(token: "205431240:AAH12fgfbpCa0aqPy-wYwn9F11H-HMX2HX0")
 
 var router = Router(bot: bot)
 
 
-//JSON parsing setup
+//JSON Parsing Setup
 
 var JAYSON = [(String, String)]()
 
-//Router functions
+//Router Functions
 router["⬅"] = { context in
     
     //Send Keyboard
@@ -46,7 +48,7 @@ router["⬅"] = { context in
     
     var button5 = KeyboardButton()
     
-    button5.text = "Games"
+    button5.text = "Wait"
     
     var button6 = KeyboardButton()
     
@@ -54,7 +56,7 @@ router["⬅"] = { context in
     
     //Keyboard Layout
     markup.keyboard = [ [ button1, button2, button3 ],
-                               [ button4, button5, button6 ],
+                        [ button4, button5, button6 ],
     ]
     
     context.respondAsync("Try them!", ["reply_markup": markup])
@@ -94,8 +96,8 @@ router["Help"] = { context in
     button6.text = "Find"
     
     markup.keyboard = [ [ button1, button2, button3 ],
-                               [ button4, button5, button6 ],
-                               
+                        [ button4, button5, button6 ],
+                        
     ]
     
     context.respondAsync("Try them!", ["reply_markup": markup])
@@ -136,9 +138,9 @@ router["Wait"] = { context in
     button3.text = "⬅"
     
     markup.keyboard = [[button1, button2],
-                              [button3]
+                       [button3]
     ]
-
+    
     context.respondAsync("Let's waste some time!", ["reply_markup": markup])
     
     return true
@@ -158,9 +160,10 @@ router["RPG"] = { context in
     ]
     
     context.respondAsync("Here are your options", ["reply_markup": markup])
-
+    
     return true
 }
+
 router["About"] = { context in
     context.respondAsync("I am designed by NaWang Labs to help you find scrumptious meals around you!")
     return true
@@ -189,7 +192,7 @@ router["Settings"] = { context in
     button3.text = "⬅"
     
     markup.keyboard = [ [ button1, button2 ],
-                               [ button3]
+                        [ button3]
     ]
     
     context.respondAsync("Here are the options", ["reply_markup": markup])
@@ -266,8 +269,8 @@ router["Find"] = { context in
     button10.text = "⬅"
     
     markup.keyboard = [ [ button1, button2, button3 ],
-                               [ button4, button5, button6 ],
-                               [ button10]
+                        [ button4, button5, button6 ],
+                        [ button10]
     ]
     
     context.respondAsync("Here are the options", ["reply_markup": markup])
@@ -292,11 +295,11 @@ router["Find"] = { context in
             print("no error")
         }
     }
-
+    
     task.resume()
-
+    
     return true
-
+    
 }
 
 //Print to show that console is working
@@ -312,6 +315,3 @@ while var update = bot.nextUpdateSync() {
 
 //Say if bot is failing
 fatalError("Server stopped due to error: \(bot.lastError)")
-
-
-
