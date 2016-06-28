@@ -1,0 +1,1230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1304F81C1D217C3C002BFC2E /* CustomObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1304F81B1D217C3C002BFC2E /* CustomObject.m */; };
+		_LinkFileRef_CryptoSwift_via_hambre /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CryptoSwift" /* CryptoSwift.framework */; };
+		_LinkFileRef_SwiftyJSON_via_TelegramBot /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */; };
+		_LinkFileRef_SwiftyJSON_via_hambre /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */; };
+		_LinkFileRef_TelegramBot_via_hambre /* TelegramBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TelegramBot" /* TelegramBot.framework */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/AES.swift" /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/AES.swift" /* AES.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Array+Extension.swift" /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Array+Extension.swift" /* Array+Extension.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Authenticator.swift" /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Authenticator.swift" /* Authenticator.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Bit.swift" /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Bit.swift" /* Bit.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockCipher.swift" /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockCipher.swift" /* BlockCipher.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockMode.swift" /* BlockMode/BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockMode.swift" /* BlockMode/BlockMode.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeOptions.swift" /* BlockMode/BlockModeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeOptions.swift" /* BlockMode/BlockModeOptions.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeWorker.swift" /* BlockMode/BlockModeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeWorker.swift" /* BlockMode/BlockModeWorker.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CBC.swift" /* BlockMode/CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CBC.swift" /* BlockMode/CBC.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CFB.swift" /* BlockMode/CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CFB.swift" /* BlockMode/CFB.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CTR.swift" /* BlockMode/CTR.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CTR.swift" /* BlockMode/CTR.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/ECB.swift" /* BlockMode/ECB.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/ECB.swift" /* BlockMode/ECB.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/OFB.swift" /* BlockMode/OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/OFB.swift" /* BlockMode/OFB.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/PCBC.swift" /* BlockMode/PCBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/PCBC.swift" /* BlockMode/PCBC.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BytesSequence.swift" /* BytesSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BytesSequence.swift" /* BytesSequence.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CRC.swift" /* CRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CRC.swift" /* CRC.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CSArrayType+Extensions.swift" /* CSArrayType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CSArrayType+Extensions.swift" /* CSArrayType+Extensions.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ChaCha20.swift" /* ChaCha20.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ChaCha20.swift" /* ChaCha20.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cipher.swift" /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cipher.swift" /* Cipher.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cryptors.swift" /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cryptors.swift" /* Cryptors.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/AES+Foundation.swift" /* Foundation/AES+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/AES+Foundation.swift" /* Foundation/AES+Foundation.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift" /* Foundation/CSArrayType+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift" /* Foundation/CSArrayType+Foundation.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift" /* Foundation/ChaCha20+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift" /* Foundation/ChaCha20+Foundation.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Data+Extension.swift" /* Foundation/Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Data+Extension.swift" /* Foundation/Data+Extension.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift" /* Foundation/Rabbit+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift" /* Foundation/Rabbit+Foundation.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+FoundationExtension.swift" /* Foundation/String+FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+FoundationExtension.swift" /* Foundation/String+FoundationExtension.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+LinuxFoundation.swift" /* Foundation/String+LinuxFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+LinuxFoundation.swift" /* Foundation/String+LinuxFoundation.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Utils+Foundation.swift" /* Foundation/Utils+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Utils+Foundation.swift" /* Foundation/Utils+Foundation.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Generics.swift" /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Generics.swift" /* Generics.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HMAC.swift" /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HMAC.swift" /* HMAC.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Hash.swift" /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Hash.swift" /* Hash.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HashProtocol.swift" /* HashProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HashProtocol.swift" /* HashProtocol.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntExtension.swift" /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntExtension.swift" /* IntExtension.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntegerConvertible.swift" /* IntegerConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntegerConvertible.swift" /* IntegerConvertible.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/MD5.swift" /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/MD5.swift" /* MD5.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Multiplatform.swift" /* Multiplatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Multiplatform.swift" /* Multiplatform.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/NoPadding.swift" /* NoPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/NoPadding.swift" /* NoPadding.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Operators.swift" /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Operators.swift" /* Operators.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF1.swift" /* PKCS5/PBKDF1.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF1.swift" /* PKCS5/PBKDF1.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF2.swift" /* PKCS5/PBKDF2.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF2.swift" /* PKCS5/PBKDF2.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PKCS5.swift" /* PKCS5/PKCS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PKCS5.swift" /* PKCS5/PKCS5.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS7.swift" /* PKCS7.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS7.swift" /* PKCS7.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Padding.swift" /* Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Padding.swift" /* Padding.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Poly1305.swift" /* Poly1305.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Poly1305.swift" /* Poly1305.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Rabbit.swift" /* Rabbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Rabbit.swift" /* Rabbit.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA1.swift" /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA1.swift" /* SHA1.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA2.swift" /* SHA2.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA2.swift" /* SHA2.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SecureBytes.swift" /* SecureBytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SecureBytes.swift" /* SecureBytes.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/String+Extension.swift" /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/String+Extension.swift" /* String+Extension.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt32Extension.swift" /* UInt32Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt32Extension.swift" /* UInt32Extension.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt64Extension.swift" /* UInt64Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt64Extension.swift" /* UInt64Extension.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt8Extension.swift" /* UInt8Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt8Extension.swift" /* UInt8Extension.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UpdatableCryptor.swift" /* UpdatableCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UpdatableCryptor.swift" /* UpdatableCryptor.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Utils.swift" /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Utils.swift" /* Utils.swift */; };
+		"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ZeroPadding.swift" /* ZeroPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ZeroPadding.swift" /* ZeroPadding.swift */; };
+		"__src_cc_ref_Packages/SwiftyJSON-10.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-10.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */; };
+		"__src_cc_ref_Packages/SwiftyJSON-10.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-10.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/BotName.swift" /* BotName.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/BotName.swift" /* BotName.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/JSON+Utils.swift" /* Categories/JSON+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/JSON+Utils.swift" /* Categories/JSON+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSRunLoop+Utils.swift" /* Categories/NSRunLoop+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSRunLoop+Utils.swift" /* Categories/NSRunLoop+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSScanner+Swift.swift" /* Categories/NSScanner+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSScanner+Swift.swift" /* Categories/NSScanner+Swift.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSURLSessionDataTask+AssociatedData.swift" /* Categories/NSURLSessionDataTask+AssociatedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSURLSessionDataTask+AssociatedData.swift" /* Categories/NSURLSessionDataTask+AssociatedData.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/Optional+Unwrap.swift" /* Categories/Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/Optional+Unwrap.swift" /* Categories/Optional+Unwrap.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+ExtractBotCommand.swift" /* Categories/String+ExtractBotCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+ExtractBotCommand.swift" /* Categories/String+ExtractBotCommand.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+HTTP.swift" /* Categories/String+HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+HTTP.swift" /* Categories/String+HTTP.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Indent.swift" /* Categories/String+Indent.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Indent.swift" /* Categories/String+Indent.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Trim.swift" /* Categories/String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Trim.swift" /* Categories/String+Trim.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Utils.swift" /* Categories/String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Utils.swift" /* Categories/String+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DataTaskError.swift" /* DataTaskError.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DataTaskError.swift" /* DataTaskError.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DictionaryUtils.swift" /* DictionaryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DictionaryUtils.swift" /* DictionaryUtils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/HTTPUtils.swift" /* HTTPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/HTTPUtils.swift" /* HTTPUtils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ChatId.swift" /* Protocols/ChatId.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ChatId.swift" /* Protocols/ChatId.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/FileInfo.swift" /* Protocols/FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/FileInfo.swift" /* Protocols/FileInfo.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/InlineQueryResult.swift" /* Protocols/InlineQueryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/InlineQueryResult.swift" /* Protocols/InlineQueryResult.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/JsonConvertible.swift" /* Protocols/JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/JsonConvertible.swift" /* Protocols/JsonConvertible.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ReplyMarkup.swift" /* Protocols/ReplyMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ReplyMarkup.swift" /* Protocols/ReplyMarkup.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerCallbackQuery.swift" /* Requests/TelegramBot+answerCallbackQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerCallbackQuery.swift" /* Requests/TelegramBot+answerCallbackQuery.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerInlineQuery.swift" /* Requests/TelegramBot+answerInlineQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerInlineQuery.swift" /* Requests/TelegramBot+answerInlineQuery.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageCaption.swift" /* Requests/TelegramBot+editMessageCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageCaption.swift" /* Requests/TelegramBot+editMessageCaption.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageReplyMarkup.swift" /* Requests/TelegramBot+editMessageReplyMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageReplyMarkup.swift" /* Requests/TelegramBot+editMessageReplyMarkup.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageText.swift" /* Requests/TelegramBot+editMessageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageText.swift" /* Requests/TelegramBot+editMessageText.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+forwardMessage.swift" /* Requests/TelegramBot+forwardMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+forwardMessage.swift" /* Requests/TelegramBot+forwardMessage.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChat.swift" /* Requests/TelegramBot+getChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChat.swift" /* Requests/TelegramBot+getChat.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatAdministrators.swift" /* Requests/TelegramBot+getChatAdministrators.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatAdministrators.swift" /* Requests/TelegramBot+getChatAdministrators.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMember.swift" /* Requests/TelegramBot+getChatMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMember.swift" /* Requests/TelegramBot+getChatMember.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMembersCount.swift" /* Requests/TelegramBot+getChatMembersCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMembersCount.swift" /* Requests/TelegramBot+getChatMembersCount.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getFile.swift" /* Requests/TelegramBot+getFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getFile.swift" /* Requests/TelegramBot+getFile.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getMe.swift" /* Requests/TelegramBot+getMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getMe.swift" /* Requests/TelegramBot+getMe.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates+Utils.swift" /* Requests/TelegramBot+getUpdates+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates+Utils.swift" /* Requests/TelegramBot+getUpdates+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates.swift" /* Requests/TelegramBot+getUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates.swift" /* Requests/TelegramBot+getUpdates.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUserProfilePhotos.swift" /* Requests/TelegramBot+getUserProfilePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUserProfilePhotos.swift" /* Requests/TelegramBot+getUserProfilePhotos.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+kickChatMember.swift" /* Requests/TelegramBot+kickChatMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+kickChatMember.swift" /* Requests/TelegramBot+kickChatMember.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+leaveChat.swift" /* Requests/TelegramBot+leaveChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+leaveChat.swift" /* Requests/TelegramBot+leaveChat.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendAudio.swift" /* Requests/TelegramBot+sendAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendAudio.swift" /* Requests/TelegramBot+sendAudio.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction+Utils.swift" /* Requests/TelegramBot+sendChatAction+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction+Utils.swift" /* Requests/TelegramBot+sendChatAction+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction.swift" /* Requests/TelegramBot+sendChatAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction.swift" /* Requests/TelegramBot+sendChatAction.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendContact.swift" /* Requests/TelegramBot+sendContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendContact.swift" /* Requests/TelegramBot+sendContact.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendDocument.swift" /* Requests/TelegramBot+sendDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendDocument.swift" /* Requests/TelegramBot+sendDocument.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendLocation.swift" /* Requests/TelegramBot+sendLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendLocation.swift" /* Requests/TelegramBot+sendLocation.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage+Utils.swift" /* Requests/TelegramBot+sendMessage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage+Utils.swift" /* Requests/TelegramBot+sendMessage+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage.swift" /* Requests/TelegramBot+sendMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage.swift" /* Requests/TelegramBot+sendMessage.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendPhoto.swift" /* Requests/TelegramBot+sendPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendPhoto.swift" /* Requests/TelegramBot+sendPhoto.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendSticker.swift" /* Requests/TelegramBot+sendSticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendSticker.swift" /* Requests/TelegramBot+sendSticker.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVenue.swift" /* Requests/TelegramBot+sendVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVenue.swift" /* Requests/TelegramBot+sendVenue.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVideo.swift" /* Requests/TelegramBot+sendVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVideo.swift" /* Requests/TelegramBot+sendVideo.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVoice.swift" /* Requests/TelegramBot+sendVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVoice.swift" /* Requests/TelegramBot+sendVoice.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+setWebhook.swift" /* Requests/TelegramBot+setWebhook.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+setWebhook.swift" /* Requests/TelegramBot+setWebhook.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+unbanChatMember.swift" /* Requests/TelegramBot+unbanChatMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+unbanChatMember.swift" /* Requests/TelegramBot+unbanChatMember.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Arguments.swift" /* Router/Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Arguments.swift" /* Router/Arguments.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Command.swift" /* Router/Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Command.swift" /* Router/Command.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/ContentType.swift" /* Router/ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/ContentType.swift" /* Router/ContentType.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Context.swift" /* Router/Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Context.swift" /* Router/Context.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router+Helpers.swift" /* Router/Router+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router+Helpers.swift" /* Router/Router+Helpers.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router.swift" /* Router/Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router.swift" /* Router/Router.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TaskAssociatedData.swift" /* TaskAssociatedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TaskAssociatedData.swift" /* TaskAssociatedData.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Requests.swift" /* TelegramBot+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Requests.swift" /* TelegramBot+Requests.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Utils.swift" /* TelegramBot+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Utils.swift" /* TelegramBot+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot.swift" /* TelegramBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot.swift" /* TelegramBot.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Audio.swift" /* Types/Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Audio.swift" /* Types/Audio.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Bool+JsonConvertible.swift" /* Types/Bool+JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Bool+JsonConvertible.swift" /* Types/Bool+JsonConvertible.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/CallbackQuery.swift" /* Types/CallbackQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/CallbackQuery.swift" /* Types/CallbackQuery.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat+Utils.swift" /* Types/Chat+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat+Utils.swift" /* Types/Chat+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat.swift" /* Types/Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat.swift" /* Types/Chat.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember+Utils.swift" /* Types/ChatMember+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember+Utils.swift" /* Types/ChatMember+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember.swift" /* Types/ChatMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember.swift" /* Types/ChatMember.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChosenInlineResult.swift" /* Types/ChosenInlineResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChosenInlineResult.swift" /* Types/ChosenInlineResult.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Contact.swift" /* Types/Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Contact.swift" /* Types/Contact.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Document.swift" /* Types/Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Document.swift" /* Types/Document.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/File.swift" /* Types/File.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/File.swift" /* Types/File.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ForceReply.swift" /* Types/ForceReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ForceReply.swift" /* Types/ForceReply.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardButton.swift" /* Types/InlineKeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardButton.swift" /* Types/InlineKeyboardButton.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardMarkup.swift" /* Types/InlineKeyboardMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardMarkup.swift" /* Types/InlineKeyboardMarkup.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQuery.swift" /* Types/InlineQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQuery.swift" /* Types/InlineQuery.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultArticle.swift" /* Types/InlineQueryResultArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultArticle.swift" /* Types/InlineQueryResultArticle.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultAudio.swift" /* Types/InlineQueryResultAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultAudio.swift" /* Types/InlineQueryResultAudio.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedAudio.swift" /* Types/InlineQueryResultCachedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedAudio.swift" /* Types/InlineQueryResultCachedAudio.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedDocument.swift" /* Types/InlineQueryResultCachedDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedDocument.swift" /* Types/InlineQueryResultCachedDocument.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedGif.swift" /* Types/InlineQueryResultCachedGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedGif.swift" /* Types/InlineQueryResultCachedGif.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedMpeg4Gif.swift" /* Types/InlineQueryResultCachedMpeg4Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedMpeg4Gif.swift" /* Types/InlineQueryResultCachedMpeg4Gif.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedPhoto.swift" /* Types/InlineQueryResultCachedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedPhoto.swift" /* Types/InlineQueryResultCachedPhoto.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedSticker.swift" /* Types/InlineQueryResultCachedSticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedSticker.swift" /* Types/InlineQueryResultCachedSticker.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVideo.swift" /* Types/InlineQueryResultCachedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVideo.swift" /* Types/InlineQueryResultCachedVideo.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVoice.swift" /* Types/InlineQueryResultCachedVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVoice.swift" /* Types/InlineQueryResultCachedVoice.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultContact.swift" /* Types/InlineQueryResultContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultContact.swift" /* Types/InlineQueryResultContact.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultDocument.swift" /* Types/InlineQueryResultDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultDocument.swift" /* Types/InlineQueryResultDocument.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultGif.swift" /* Types/InlineQueryResultGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultGif.swift" /* Types/InlineQueryResultGif.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultLocation.swift" /* Types/InlineQueryResultLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultLocation.swift" /* Types/InlineQueryResultLocation.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultMpeg4Gif.swift" /* Types/InlineQueryResultMpeg4Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultMpeg4Gif.swift" /* Types/InlineQueryResultMpeg4Gif.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultPhoto.swift" /* Types/InlineQueryResultPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultPhoto.swift" /* Types/InlineQueryResultPhoto.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVenue.swift" /* Types/InlineQueryResultVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVenue.swift" /* Types/InlineQueryResultVenue.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVideo.swift" /* Types/InlineQueryResultVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVideo.swift" /* Types/InlineQueryResultVideo.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVoice.swift" /* Types/InlineQueryResultVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVoice.swift" /* Types/InlineQueryResultVoice.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputContactMessageContent.swift" /* Types/InputContactMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputContactMessageContent.swift" /* Types/InputContactMessageContent.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputFile.swift" /* Types/InputFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputFile.swift" /* Types/InputFile.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputLocationMessageContent.swift" /* Types/InputLocationMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputLocationMessageContent.swift" /* Types/InputLocationMessageContent.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputMessageContent.swift" /* Types/InputMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputMessageContent.swift" /* Types/InputMessageContent.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputTextMessageContent.swift" /* Types/InputTextMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputTextMessageContent.swift" /* Types/InputTextMessageContent.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputVenueMessageContent.swift" /* Types/InputVenueMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputVenueMessageContent.swift" /* Types/InputVenueMessageContent.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int+JsonObject.swift" /* Types/Int+JsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int+JsonObject.swift" /* Types/Int+JsonObject.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int64+JsonConvertible.swift" /* Types/Int64+JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int64+JsonConvertible.swift" /* Types/Int64+JsonConvertible.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/JSON+JsonObject.swift" /* Types/JSON+JsonObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/JSON+JsonObject.swift" /* Types/JSON+JsonObject.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/KeyboardButton.swift" /* Types/KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/KeyboardButton.swift" /* Types/KeyboardButton.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Location.swift" /* Types/Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Location.swift" /* Types/Location.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message+Command.swift" /* Types/Message+Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message+Command.swift" /* Types/Message+Command.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message.swift" /* Types/Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message.swift" /* Types/Message.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/MessageEntity.swift" /* Types/MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/MessageEntity.swift" /* Types/MessageEntity.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/PhotoSize.swift" /* Types/PhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/PhotoSize.swift" /* Types/PhotoSize.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardHide.swift" /* Types/ReplyKeyboardHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardHide.swift" /* Types/ReplyKeyboardHide.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup+Utils.swift" /* Types/ReplyKeyboardMarkup+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup+Utils.swift" /* Types/ReplyKeyboardMarkup+Utils.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup.swift" /* Types/ReplyKeyboardMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup.swift" /* Types/ReplyKeyboardMarkup.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Response.swift" /* Types/Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Response.swift" /* Types/Response.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Sticker.swift" /* Types/Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Sticker.swift" /* Types/Sticker.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/String+JsonConvertible.swift" /* Types/String+JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/String+JsonConvertible.swift" /* Types/String+JsonConvertible.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Update.swift" /* Types/Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Update.swift" /* Types/Update.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/User.swift" /* Types/User.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/User.swift" /* Types/User.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/UserProfilePhotos.swift" /* Types/UserProfilePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/UserProfilePhotos.swift" /* Types/UserProfilePhotos.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Venue.swift" /* Types/Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Venue.swift" /* Types/Venue.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Video.swift" /* Types/Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Video.swift" /* Types/Video.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Voice.swift" /* Types/Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Voice.swift" /* Types/Voice.swift */; };
+		"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Utils.swift" /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Utils.swift" /* Utils.swift */; };
+		__src_cc_ref_Sources/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/main.swift /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1304F8161D217C12002BFC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		1304F8171D217C12002BFC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CryptoSwift";
+			remoteInfo = CryptoSwift;
+		};
+		1304F8181D217C12002BFC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_TelegramBot";
+			remoteInfo = TelegramBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1304F8191D217C3C002BFC2E /* CustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomObject.h; sourceTree = "<group>"; };
+		1304F81A1D217C3C002BFC2E /* Hambre-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hambre-Bridging-Header.h"; sourceTree = "<group>"; };
+		1304F81B1D217C3C002BFC2E /* CustomObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomObject.m; sourceTree = "<group>"; };
+		__PBXFileRef_CryptoSwift_Info.plist /* CryptoSwift_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CryptoSwift_Info.plist; path = hambre.xcodeproj/CryptoSwift_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/AES.swift" /* AES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Array+Extension.swift" /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Authenticator.swift" /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Bit.swift" /* Bit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bit.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockCipher.swift" /* BlockCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockCipher.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockMode.swift" /* BlockMode/BlockMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/BlockMode.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeOptions.swift" /* BlockMode/BlockModeOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/BlockModeOptions.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeWorker.swift" /* BlockMode/BlockModeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/BlockModeWorker.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CBC.swift" /* BlockMode/CBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/CBC.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CFB.swift" /* BlockMode/CFB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/CFB.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CTR.swift" /* BlockMode/CTR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/CTR.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/ECB.swift" /* BlockMode/ECB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/ECB.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/OFB.swift" /* BlockMode/OFB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/OFB.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/PCBC.swift" /* BlockMode/PCBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockMode/PCBC.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BytesSequence.swift" /* BytesSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BytesSequence.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CRC.swift" /* CRC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRC.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CSArrayType+Extensions.swift" /* CSArrayType+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CSArrayType+Extensions.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ChaCha20.swift" /* ChaCha20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaCha20.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cipher.swift" /* Cipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cryptors.swift" /* Cryptors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cryptors.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/AES+Foundation.swift" /* Foundation/AES+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation/AES+Foundation.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift" /* Foundation/CSArrayType+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation/CSArrayType+Foundation.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift" /* Foundation/ChaCha20+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation/ChaCha20+Foundation.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Data+Extension.swift" /* Foundation/Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation/Data+Extension.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift" /* Foundation/Rabbit+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation/Rabbit+Foundation.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+FoundationExtension.swift" /* Foundation/String+FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation/String+FoundationExtension.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+LinuxFoundation.swift" /* Foundation/String+LinuxFoundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation/String+LinuxFoundation.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Utils+Foundation.swift" /* Foundation/Utils+Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundation/Utils+Foundation.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Generics.swift" /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HMAC.swift" /* HMAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Hash.swift" /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HashProtocol.swift" /* HashProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashProtocol.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntExtension.swift" /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntegerConvertible.swift" /* IntegerConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerConvertible.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/MD5.swift" /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Multiplatform.swift" /* Multiplatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplatform.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/NoPadding.swift" /* NoPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPadding.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Operators.swift" /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF1.swift" /* PKCS5/PBKDF1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKCS5/PBKDF1.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF2.swift" /* PKCS5/PBKDF2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKCS5/PBKDF2.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PKCS5.swift" /* PKCS5/PKCS5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKCS5/PKCS5.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS7.swift" /* PKCS7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKCS7.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Padding.swift" /* Padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Padding.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Poly1305.swift" /* Poly1305.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poly1305.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Rabbit.swift" /* Rabbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rabbit.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA1.swift" /* SHA1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA1.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA2.swift" /* SHA2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHA2.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SecureBytes.swift" /* SecureBytes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureBytes.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/String+Extension.swift" /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt32Extension.swift" /* UInt32Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt32Extension.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt64Extension.swift" /* UInt64Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt64Extension.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt8Extension.swift" /* UInt8Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UInt8Extension.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UpdatableCryptor.swift" /* UpdatableCryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatableCryptor.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Utils.swift" /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ZeroPadding.swift" /* ZeroPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroPadding.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftyJSON-10.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LclJSONSerialization.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftyJSON-10.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/BotName.swift" /* BotName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotName.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/JSON+Utils.swift" /* Categories/JSON+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/JSON+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSRunLoop+Utils.swift" /* Categories/NSRunLoop+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/NSRunLoop+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSScanner+Swift.swift" /* Categories/NSScanner+Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/NSScanner+Swift.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSURLSessionDataTask+AssociatedData.swift" /* Categories/NSURLSessionDataTask+AssociatedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/NSURLSessionDataTask+AssociatedData.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/Optional+Unwrap.swift" /* Categories/Optional+Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/Optional+Unwrap.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+ExtractBotCommand.swift" /* Categories/String+ExtractBotCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/String+ExtractBotCommand.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+HTTP.swift" /* Categories/String+HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/String+HTTP.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Indent.swift" /* Categories/String+Indent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/String+Indent.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Trim.swift" /* Categories/String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/String+Trim.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Utils.swift" /* Categories/String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Categories/String+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DataTaskError.swift" /* DataTaskError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskError.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DictionaryUtils.swift" /* DictionaryUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryUtils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/HTTPUtils.swift" /* HTTPUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtils.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ChatId.swift" /* Protocols/ChatId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols/ChatId.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/FileInfo.swift" /* Protocols/FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols/FileInfo.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/InlineQueryResult.swift" /* Protocols/InlineQueryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols/InlineQueryResult.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/JsonConvertible.swift" /* Protocols/JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols/JsonConvertible.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ReplyMarkup.swift" /* Protocols/ReplyMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols/ReplyMarkup.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerCallbackQuery.swift" /* Requests/TelegramBot+answerCallbackQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+answerCallbackQuery.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerInlineQuery.swift" /* Requests/TelegramBot+answerInlineQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+answerInlineQuery.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageCaption.swift" /* Requests/TelegramBot+editMessageCaption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+editMessageCaption.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageReplyMarkup.swift" /* Requests/TelegramBot+editMessageReplyMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+editMessageReplyMarkup.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageText.swift" /* Requests/TelegramBot+editMessageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+editMessageText.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+forwardMessage.swift" /* Requests/TelegramBot+forwardMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+forwardMessage.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChat.swift" /* Requests/TelegramBot+getChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getChat.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatAdministrators.swift" /* Requests/TelegramBot+getChatAdministrators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getChatAdministrators.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMember.swift" /* Requests/TelegramBot+getChatMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getChatMember.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMembersCount.swift" /* Requests/TelegramBot+getChatMembersCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getChatMembersCount.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getFile.swift" /* Requests/TelegramBot+getFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getFile.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getMe.swift" /* Requests/TelegramBot+getMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getMe.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates+Utils.swift" /* Requests/TelegramBot+getUpdates+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getUpdates+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates.swift" /* Requests/TelegramBot+getUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getUpdates.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUserProfilePhotos.swift" /* Requests/TelegramBot+getUserProfilePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+getUserProfilePhotos.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+kickChatMember.swift" /* Requests/TelegramBot+kickChatMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+kickChatMember.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+leaveChat.swift" /* Requests/TelegramBot+leaveChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+leaveChat.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendAudio.swift" /* Requests/TelegramBot+sendAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendAudio.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction+Utils.swift" /* Requests/TelegramBot+sendChatAction+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendChatAction+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction.swift" /* Requests/TelegramBot+sendChatAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendChatAction.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendContact.swift" /* Requests/TelegramBot+sendContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendContact.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendDocument.swift" /* Requests/TelegramBot+sendDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendDocument.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendLocation.swift" /* Requests/TelegramBot+sendLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendLocation.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage+Utils.swift" /* Requests/TelegramBot+sendMessage+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendMessage+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage.swift" /* Requests/TelegramBot+sendMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendMessage.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendPhoto.swift" /* Requests/TelegramBot+sendPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendPhoto.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendSticker.swift" /* Requests/TelegramBot+sendSticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendSticker.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVenue.swift" /* Requests/TelegramBot+sendVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendVenue.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVideo.swift" /* Requests/TelegramBot+sendVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendVideo.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVoice.swift" /* Requests/TelegramBot+sendVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+sendVoice.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+setWebhook.swift" /* Requests/TelegramBot+setWebhook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+setWebhook.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+unbanChatMember.swift" /* Requests/TelegramBot+unbanChatMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Requests/TelegramBot+unbanChatMember.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Arguments.swift" /* Router/Arguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router/Arguments.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Command.swift" /* Router/Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router/Command.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/ContentType.swift" /* Router/ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router/ContentType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Context.swift" /* Router/Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router/Context.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router+Helpers.swift" /* Router/Router+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Router/Router+Helpers.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router.swift" /* Router/Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router/Router.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TaskAssociatedData.swift" /* TaskAssociatedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAssociatedData.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Requests.swift" /* TelegramBot+Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+Requests.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Utils.swift" /* TelegramBot+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot.swift" /* TelegramBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramBot.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Audio.swift" /* Types/Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Audio.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Bool+JsonConvertible.swift" /* Types/Bool+JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/Bool+JsonConvertible.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/CallbackQuery.swift" /* Types/CallbackQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/CallbackQuery.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat+Utils.swift" /* Types/Chat+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/Chat+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat.swift" /* Types/Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Chat.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember+Utils.swift" /* Types/ChatMember+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/ChatMember+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember.swift" /* Types/ChatMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/ChatMember.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChosenInlineResult.swift" /* Types/ChosenInlineResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/ChosenInlineResult.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Contact.swift" /* Types/Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Contact.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Document.swift" /* Types/Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Document.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/File.swift" /* Types/File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/File.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ForceReply.swift" /* Types/ForceReply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/ForceReply.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardButton.swift" /* Types/InlineKeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineKeyboardButton.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardMarkup.swift" /* Types/InlineKeyboardMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineKeyboardMarkup.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQuery.swift" /* Types/InlineQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQuery.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultArticle.swift" /* Types/InlineQueryResultArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultArticle.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultAudio.swift" /* Types/InlineQueryResultAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultAudio.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedAudio.swift" /* Types/InlineQueryResultCachedAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultCachedAudio.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedDocument.swift" /* Types/InlineQueryResultCachedDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultCachedDocument.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedGif.swift" /* Types/InlineQueryResultCachedGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultCachedGif.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedMpeg4Gif.swift" /* Types/InlineQueryResultCachedMpeg4Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultCachedMpeg4Gif.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedPhoto.swift" /* Types/InlineQueryResultCachedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultCachedPhoto.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedSticker.swift" /* Types/InlineQueryResultCachedSticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultCachedSticker.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVideo.swift" /* Types/InlineQueryResultCachedVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultCachedVideo.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVoice.swift" /* Types/InlineQueryResultCachedVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultCachedVoice.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultContact.swift" /* Types/InlineQueryResultContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultContact.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultDocument.swift" /* Types/InlineQueryResultDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultDocument.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultGif.swift" /* Types/InlineQueryResultGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultGif.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultLocation.swift" /* Types/InlineQueryResultLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultLocation.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultMpeg4Gif.swift" /* Types/InlineQueryResultMpeg4Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultMpeg4Gif.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultPhoto.swift" /* Types/InlineQueryResultPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultPhoto.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVenue.swift" /* Types/InlineQueryResultVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultVenue.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVideo.swift" /* Types/InlineQueryResultVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultVideo.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVoice.swift" /* Types/InlineQueryResultVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InlineQueryResultVoice.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputContactMessageContent.swift" /* Types/InputContactMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InputContactMessageContent.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputFile.swift" /* Types/InputFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InputFile.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputLocationMessageContent.swift" /* Types/InputLocationMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InputLocationMessageContent.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputMessageContent.swift" /* Types/InputMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InputMessageContent.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputTextMessageContent.swift" /* Types/InputTextMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InputTextMessageContent.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputVenueMessageContent.swift" /* Types/InputVenueMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/InputVenueMessageContent.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int+JsonObject.swift" /* Types/Int+JsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/Int+JsonObject.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int64+JsonConvertible.swift" /* Types/Int64+JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/Int64+JsonConvertible.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/JSON+JsonObject.swift" /* Types/JSON+JsonObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/JSON+JsonObject.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/KeyboardButton.swift" /* Types/KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/KeyboardButton.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Location.swift" /* Types/Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Location.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message+Command.swift" /* Types/Message+Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/Message+Command.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message.swift" /* Types/Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Message.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/MessageEntity.swift" /* Types/MessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/MessageEntity.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/PhotoSize.swift" /* Types/PhotoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/PhotoSize.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardHide.swift" /* Types/ReplyKeyboardHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/ReplyKeyboardHide.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup+Utils.swift" /* Types/ReplyKeyboardMarkup+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/ReplyKeyboardMarkup+Utils.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup.swift" /* Types/ReplyKeyboardMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/ReplyKeyboardMarkup.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Response.swift" /* Types/Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Response.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Sticker.swift" /* Types/Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Sticker.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/String+JsonConvertible.swift" /* Types/String+JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Types/String+JsonConvertible.swift"; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Update.swift" /* Types/Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Update.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/User.swift" /* Types/User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/User.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/UserProfilePhotos.swift" /* Types/UserProfilePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/UserProfilePhotos.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Venue.swift" /* Types/Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Venue.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Video.swift" /* Types/Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Video.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Voice.swift" /* Types/Voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types/Voice.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Utils.swift" /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_SwiftyJSON_Info.plist /* SwiftyJSON_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SwiftyJSON_Info.plist; path = hambre.xcodeproj/SwiftyJSON_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_TelegramBot_Info.plist /* TelegramBot_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = TelegramBot_Info.plist; path = hambre.xcodeproj/TelegramBot_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_hambre.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = hambre.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		"_____Product_CryptoSwift" /* CryptoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CryptoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SwiftyJSON" /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_TelegramBot" /* TelegramBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TelegramBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_hambre" /* hambre */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hambre; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_CryptoSwift" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SwiftyJSON" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_TelegramBot" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_SwiftyJSON_via_TelegramBot /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_hambre" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_SwiftyJSON_via_hambre /* SwiftyJSON.framework in Frameworks */,
+				_LinkFileRef_CryptoSwift_via_hambre /* CryptoSwift.framework in Frameworks */,
+				_LinkFileRef_TelegramBot_via_hambre /* TelegramBot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_SwiftyJSON" /* SwiftyJSON */,
+				"_______Group_TelegramBot" /* TelegramBot */,
+				"_______Group_CryptoSwift" /* CryptoSwift */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				1304F8191D217C3C002BFC2E /* CustomObject.h */,
+				1304F81A1D217C3C002BFC2E /* Hambre-Bridging-Header.h */,
+				1304F81B1D217C3C002BFC2E /* CustomObject.m */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_SwiftyJSON" /* SwiftyJSON.framework */,
+				"_____Product_TelegramBot" /* TelegramBot.framework */,
+				"_____Product_CryptoSwift" /* CryptoSwift.framework */,
+				"_____Product_hambre" /* hambre */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_hambre.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_hambre" /* hambre */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_CryptoSwift" /* CryptoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/AES.swift" /* AES.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Array+Extension.swift" /* Array+Extension.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Authenticator.swift" /* Authenticator.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Bit.swift" /* Bit.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockCipher.swift" /* BlockCipher.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BytesSequence.swift" /* BytesSequence.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ChaCha20.swift" /* ChaCha20.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cipher.swift" /* Cipher.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CRC.swift" /* CRC.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cryptors.swift" /* Cryptors.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CSArrayType+Extensions.swift" /* CSArrayType+Extensions.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Generics.swift" /* Generics.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Hash.swift" /* Hash.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HashProtocol.swift" /* HashProtocol.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HMAC.swift" /* HMAC.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntegerConvertible.swift" /* IntegerConvertible.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntExtension.swift" /* IntExtension.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/MD5.swift" /* MD5.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Multiplatform.swift" /* Multiplatform.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/NoPadding.swift" /* NoPadding.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Operators.swift" /* Operators.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Padding.swift" /* Padding.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS7.swift" /* PKCS7.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Poly1305.swift" /* Poly1305.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Rabbit.swift" /* Rabbit.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SecureBytes.swift" /* SecureBytes.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA1.swift" /* SHA1.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA2.swift" /* SHA2.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/String+Extension.swift" /* String+Extension.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt32Extension.swift" /* UInt32Extension.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt64Extension.swift" /* UInt64Extension.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt8Extension.swift" /* UInt8Extension.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UpdatableCryptor.swift" /* UpdatableCryptor.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Utils.swift" /* Utils.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ZeroPadding.swift" /* ZeroPadding.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockMode.swift" /* BlockMode/BlockMode.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeOptions.swift" /* BlockMode/BlockModeOptions.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeWorker.swift" /* BlockMode/BlockModeWorker.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CBC.swift" /* BlockMode/CBC.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CFB.swift" /* BlockMode/CFB.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CTR.swift" /* BlockMode/CTR.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/ECB.swift" /* BlockMode/ECB.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/OFB.swift" /* BlockMode/OFB.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/PCBC.swift" /* BlockMode/PCBC.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/AES+Foundation.swift" /* Foundation/AES+Foundation.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift" /* Foundation/ChaCha20+Foundation.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift" /* Foundation/CSArrayType+Foundation.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Data+Extension.swift" /* Foundation/Data+Extension.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift" /* Foundation/Rabbit+Foundation.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+FoundationExtension.swift" /* Foundation/String+FoundationExtension.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+LinuxFoundation.swift" /* Foundation/String+LinuxFoundation.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Utils+Foundation.swift" /* Foundation/Utils+Foundation.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF1.swift" /* PKCS5/PBKDF1.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF2.swift" /* PKCS5/PBKDF2.swift */,
+				"__PBXFileRef_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PKCS5.swift" /* PKCS5/PKCS5.swift */,
+				__PBXFileRef_CryptoSwift_Info.plist /* CryptoSwift_Info.plist */,
+			);
+			name = CryptoSwift;
+			path = "Packages/CryptoSwift-0.1.0/Sources/CryptoSwift";
+			sourceTree = "<group>";
+		};
+		"_______Group_SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/SwiftyJSON-10.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift */,
+				"__PBXFileRef_Packages/SwiftyJSON-10.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */,
+				__PBXFileRef_SwiftyJSON_Info.plist /* SwiftyJSON_Info.plist */,
+			);
+			name = SwiftyJSON;
+			path = "Packages/SwiftyJSON-10.0.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_TelegramBot" /* TelegramBot */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/BotName.swift" /* BotName.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DataTaskError.swift" /* DataTaskError.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DictionaryUtils.swift" /* DictionaryUtils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/HTTPUtils.swift" /* HTTPUtils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TaskAssociatedData.swift" /* TaskAssociatedData.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Requests.swift" /* TelegramBot+Requests.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Utils.swift" /* TelegramBot+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot.swift" /* TelegramBot.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Utils.swift" /* Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/JSON+Utils.swift" /* Categories/JSON+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSRunLoop+Utils.swift" /* Categories/NSRunLoop+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSScanner+Swift.swift" /* Categories/NSScanner+Swift.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSURLSessionDataTask+AssociatedData.swift" /* Categories/NSURLSessionDataTask+AssociatedData.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/Optional+Unwrap.swift" /* Categories/Optional+Unwrap.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+ExtractBotCommand.swift" /* Categories/String+ExtractBotCommand.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+HTTP.swift" /* Categories/String+HTTP.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Indent.swift" /* Categories/String+Indent.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Trim.swift" /* Categories/String+Trim.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Utils.swift" /* Categories/String+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ChatId.swift" /* Protocols/ChatId.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/FileInfo.swift" /* Protocols/FileInfo.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/InlineQueryResult.swift" /* Protocols/InlineQueryResult.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/JsonConvertible.swift" /* Protocols/JsonConvertible.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ReplyMarkup.swift" /* Protocols/ReplyMarkup.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerCallbackQuery.swift" /* Requests/TelegramBot+answerCallbackQuery.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerInlineQuery.swift" /* Requests/TelegramBot+answerInlineQuery.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageCaption.swift" /* Requests/TelegramBot+editMessageCaption.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageReplyMarkup.swift" /* Requests/TelegramBot+editMessageReplyMarkup.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageText.swift" /* Requests/TelegramBot+editMessageText.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+forwardMessage.swift" /* Requests/TelegramBot+forwardMessage.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChat.swift" /* Requests/TelegramBot+getChat.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatAdministrators.swift" /* Requests/TelegramBot+getChatAdministrators.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMember.swift" /* Requests/TelegramBot+getChatMember.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMembersCount.swift" /* Requests/TelegramBot+getChatMembersCount.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getFile.swift" /* Requests/TelegramBot+getFile.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getMe.swift" /* Requests/TelegramBot+getMe.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates+Utils.swift" /* Requests/TelegramBot+getUpdates+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates.swift" /* Requests/TelegramBot+getUpdates.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUserProfilePhotos.swift" /* Requests/TelegramBot+getUserProfilePhotos.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+kickChatMember.swift" /* Requests/TelegramBot+kickChatMember.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+leaveChat.swift" /* Requests/TelegramBot+leaveChat.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendAudio.swift" /* Requests/TelegramBot+sendAudio.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction+Utils.swift" /* Requests/TelegramBot+sendChatAction+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction.swift" /* Requests/TelegramBot+sendChatAction.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendContact.swift" /* Requests/TelegramBot+sendContact.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendDocument.swift" /* Requests/TelegramBot+sendDocument.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendLocation.swift" /* Requests/TelegramBot+sendLocation.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage+Utils.swift" /* Requests/TelegramBot+sendMessage+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage.swift" /* Requests/TelegramBot+sendMessage.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendPhoto.swift" /* Requests/TelegramBot+sendPhoto.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendSticker.swift" /* Requests/TelegramBot+sendSticker.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVenue.swift" /* Requests/TelegramBot+sendVenue.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVideo.swift" /* Requests/TelegramBot+sendVideo.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVoice.swift" /* Requests/TelegramBot+sendVoice.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+setWebhook.swift" /* Requests/TelegramBot+setWebhook.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+unbanChatMember.swift" /* Requests/TelegramBot+unbanChatMember.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Arguments.swift" /* Router/Arguments.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Command.swift" /* Router/Command.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/ContentType.swift" /* Router/ContentType.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Context.swift" /* Router/Context.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router+Helpers.swift" /* Router/Router+Helpers.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router.swift" /* Router/Router.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Audio.swift" /* Types/Audio.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Bool+JsonConvertible.swift" /* Types/Bool+JsonConvertible.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/CallbackQuery.swift" /* Types/CallbackQuery.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat+Utils.swift" /* Types/Chat+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat.swift" /* Types/Chat.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember+Utils.swift" /* Types/ChatMember+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember.swift" /* Types/ChatMember.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChosenInlineResult.swift" /* Types/ChosenInlineResult.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Contact.swift" /* Types/Contact.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Document.swift" /* Types/Document.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/File.swift" /* Types/File.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ForceReply.swift" /* Types/ForceReply.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardButton.swift" /* Types/InlineKeyboardButton.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardMarkup.swift" /* Types/InlineKeyboardMarkup.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQuery.swift" /* Types/InlineQuery.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultArticle.swift" /* Types/InlineQueryResultArticle.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultAudio.swift" /* Types/InlineQueryResultAudio.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedAudio.swift" /* Types/InlineQueryResultCachedAudio.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedDocument.swift" /* Types/InlineQueryResultCachedDocument.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedGif.swift" /* Types/InlineQueryResultCachedGif.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedMpeg4Gif.swift" /* Types/InlineQueryResultCachedMpeg4Gif.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedPhoto.swift" /* Types/InlineQueryResultCachedPhoto.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedSticker.swift" /* Types/InlineQueryResultCachedSticker.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVideo.swift" /* Types/InlineQueryResultCachedVideo.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVoice.swift" /* Types/InlineQueryResultCachedVoice.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultContact.swift" /* Types/InlineQueryResultContact.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultDocument.swift" /* Types/InlineQueryResultDocument.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultGif.swift" /* Types/InlineQueryResultGif.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultLocation.swift" /* Types/InlineQueryResultLocation.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultMpeg4Gif.swift" /* Types/InlineQueryResultMpeg4Gif.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultPhoto.swift" /* Types/InlineQueryResultPhoto.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVenue.swift" /* Types/InlineQueryResultVenue.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVideo.swift" /* Types/InlineQueryResultVideo.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVoice.swift" /* Types/InlineQueryResultVoice.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputContactMessageContent.swift" /* Types/InputContactMessageContent.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputFile.swift" /* Types/InputFile.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputLocationMessageContent.swift" /* Types/InputLocationMessageContent.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputMessageContent.swift" /* Types/InputMessageContent.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputTextMessageContent.swift" /* Types/InputTextMessageContent.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputVenueMessageContent.swift" /* Types/InputVenueMessageContent.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int+JsonObject.swift" /* Types/Int+JsonObject.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int64+JsonConvertible.swift" /* Types/Int64+JsonConvertible.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/JSON+JsonObject.swift" /* Types/JSON+JsonObject.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/KeyboardButton.swift" /* Types/KeyboardButton.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Location.swift" /* Types/Location.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message+Command.swift" /* Types/Message+Command.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message.swift" /* Types/Message.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/MessageEntity.swift" /* Types/MessageEntity.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/PhotoSize.swift" /* Types/PhotoSize.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardHide.swift" /* Types/ReplyKeyboardHide.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup+Utils.swift" /* Types/ReplyKeyboardMarkup+Utils.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup.swift" /* Types/ReplyKeyboardMarkup.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Response.swift" /* Types/Response.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Sticker.swift" /* Types/Sticker.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/String+JsonConvertible.swift" /* Types/String+JsonConvertible.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Update.swift" /* Types/Update.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/User.swift" /* Types/User.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/UserProfilePhotos.swift" /* Types/UserProfilePhotos.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Venue.swift" /* Types/Venue.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Video.swift" /* Types/Video.swift */,
+				"__PBXFileRef_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Voice.swift" /* Types/Voice.swift */,
+				__PBXFileRef_TelegramBot_Info.plist /* TelegramBot_Info.plist */,
+			);
+			name = TelegramBot;
+			path = "Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot";
+			sourceTree = "<group>";
+		};
+		"_______Group_hambre" /* hambre */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/main.swift /* main.swift */,
+			);
+			name = hambre;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_CryptoSwift" /* CryptoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CryptoSwift" /* Build configuration list for PBXNativeTarget "CryptoSwift" */;
+			buildPhases = (
+				CompilePhase_CryptoSwift /* Sources */,
+				"___LinkPhase_CryptoSwift" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoSwift;
+			productName = CryptoSwift;
+			productReference = "_____Product_CryptoSwift" /* CryptoSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				CompilePhase_SwiftyJSON /* Sources */,
+				"___LinkPhase_SwiftyJSON" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_TelegramBot" /* TelegramBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_TelegramBot" /* Build configuration list for PBXNativeTarget "TelegramBot" */;
+			buildPhases = (
+				CompilePhase_TelegramBot /* Sources */,
+				"___LinkPhase_TelegramBot" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+			);
+			name = TelegramBot;
+			productName = TelegramBot;
+			productReference = "_____Product_TelegramBot" /* TelegramBot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_hambre" /* hambre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_hambre" /* Build configuration list for PBXNativeTarget "hambre" */;
+			buildPhases = (
+				CompilePhase_hambre /* Sources */,
+				"___LinkPhase_hambre" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_CryptoSwift /* PBXTargetDependency */,
+				__Dependency_TelegramBot /* PBXTargetDependency */,
+			);
+			name = hambre;
+			productName = hambre;
+			productReference = "_____Product_hambre" /* hambre */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					"______Target_hambre" = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "hambre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_SwiftyJSON" /* SwiftyJSON */,
+				"______Target_TelegramBot" /* TelegramBot */,
+				"______Target_CryptoSwift" /* CryptoSwift */,
+				"______Target_hambre" /* hambre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_CryptoSwift /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/AES.swift" /* AES.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Array+Extension.swift" /* Array+Extension.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Authenticator.swift" /* Authenticator.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Bit.swift" /* Bit.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockCipher.swift" /* BlockCipher.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BytesSequence.swift" /* BytesSequence.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ChaCha20.swift" /* ChaCha20.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cipher.swift" /* Cipher.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CRC.swift" /* CRC.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Cryptors.swift" /* Cryptors.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/CSArrayType+Extensions.swift" /* CSArrayType+Extensions.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Generics.swift" /* Generics.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Hash.swift" /* Hash.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HashProtocol.swift" /* HashProtocol.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/HMAC.swift" /* HMAC.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntegerConvertible.swift" /* IntegerConvertible.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/IntExtension.swift" /* IntExtension.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/MD5.swift" /* MD5.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Multiplatform.swift" /* Multiplatform.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/NoPadding.swift" /* NoPadding.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Operators.swift" /* Operators.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Padding.swift" /* Padding.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS7.swift" /* PKCS7.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Poly1305.swift" /* Poly1305.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Rabbit.swift" /* Rabbit.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SecureBytes.swift" /* SecureBytes.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA1.swift" /* SHA1.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/SHA2.swift" /* SHA2.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/String+Extension.swift" /* String+Extension.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt32Extension.swift" /* UInt32Extension.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt64Extension.swift" /* UInt64Extension.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UInt8Extension.swift" /* UInt8Extension.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/UpdatableCryptor.swift" /* UpdatableCryptor.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Utils.swift" /* Utils.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/ZeroPadding.swift" /* ZeroPadding.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockMode.swift" /* BlockMode/BlockMode.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeOptions.swift" /* BlockMode/BlockModeOptions.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/BlockModeWorker.swift" /* BlockMode/BlockModeWorker.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CBC.swift" /* BlockMode/CBC.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CFB.swift" /* BlockMode/CFB.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/CTR.swift" /* BlockMode/CTR.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/ECB.swift" /* BlockMode/ECB.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/OFB.swift" /* BlockMode/OFB.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/BlockMode/PCBC.swift" /* BlockMode/PCBC.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/AES+Foundation.swift" /* Foundation/AES+Foundation.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/ChaCha20+Foundation.swift" /* Foundation/ChaCha20+Foundation.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/CSArrayType+Foundation.swift" /* Foundation/CSArrayType+Foundation.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Data+Extension.swift" /* Foundation/Data+Extension.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Rabbit+Foundation.swift" /* Foundation/Rabbit+Foundation.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+FoundationExtension.swift" /* Foundation/String+FoundationExtension.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/String+LinuxFoundation.swift" /* Foundation/String+LinuxFoundation.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/Foundation/Utils+Foundation.swift" /* Foundation/Utils+Foundation.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF1.swift" /* PKCS5/PBKDF1.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PBKDF2.swift" /* PKCS5/PBKDF2.swift in Sources */,
+				"__src_cc_ref_Packages/CryptoSwift-0.1.0/Sources/CryptoSwift/PKCS5/PKCS5.swift" /* PKCS5/PKCS5.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SwiftyJSON /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/SwiftyJSON-10.0.0/Source/LclJSONSerialization.swift" /* LclJSONSerialization.swift in Sources */,
+				"__src_cc_ref_Packages/SwiftyJSON-10.0.0/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_TelegramBot /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/BotName.swift" /* BotName.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DataTaskError.swift" /* DataTaskError.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/DictionaryUtils.swift" /* DictionaryUtils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/HTTPUtils.swift" /* HTTPUtils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TaskAssociatedData.swift" /* TaskAssociatedData.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Requests.swift" /* TelegramBot+Requests.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot+Utils.swift" /* TelegramBot+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/TelegramBot.swift" /* TelegramBot.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Utils.swift" /* Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/JSON+Utils.swift" /* Categories/JSON+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSRunLoop+Utils.swift" /* Categories/NSRunLoop+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSScanner+Swift.swift" /* Categories/NSScanner+Swift.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/NSURLSessionDataTask+AssociatedData.swift" /* Categories/NSURLSessionDataTask+AssociatedData.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/Optional+Unwrap.swift" /* Categories/Optional+Unwrap.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+ExtractBotCommand.swift" /* Categories/String+ExtractBotCommand.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+HTTP.swift" /* Categories/String+HTTP.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Indent.swift" /* Categories/String+Indent.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Trim.swift" /* Categories/String+Trim.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Categories/String+Utils.swift" /* Categories/String+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ChatId.swift" /* Protocols/ChatId.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/FileInfo.swift" /* Protocols/FileInfo.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/InlineQueryResult.swift" /* Protocols/InlineQueryResult.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/JsonConvertible.swift" /* Protocols/JsonConvertible.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Protocols/ReplyMarkup.swift" /* Protocols/ReplyMarkup.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerCallbackQuery.swift" /* Requests/TelegramBot+answerCallbackQuery.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+answerInlineQuery.swift" /* Requests/TelegramBot+answerInlineQuery.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageCaption.swift" /* Requests/TelegramBot+editMessageCaption.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageReplyMarkup.swift" /* Requests/TelegramBot+editMessageReplyMarkup.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+editMessageText.swift" /* Requests/TelegramBot+editMessageText.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+forwardMessage.swift" /* Requests/TelegramBot+forwardMessage.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChat.swift" /* Requests/TelegramBot+getChat.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatAdministrators.swift" /* Requests/TelegramBot+getChatAdministrators.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMember.swift" /* Requests/TelegramBot+getChatMember.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getChatMembersCount.swift" /* Requests/TelegramBot+getChatMembersCount.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getFile.swift" /* Requests/TelegramBot+getFile.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getMe.swift" /* Requests/TelegramBot+getMe.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates+Utils.swift" /* Requests/TelegramBot+getUpdates+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUpdates.swift" /* Requests/TelegramBot+getUpdates.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+getUserProfilePhotos.swift" /* Requests/TelegramBot+getUserProfilePhotos.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+kickChatMember.swift" /* Requests/TelegramBot+kickChatMember.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+leaveChat.swift" /* Requests/TelegramBot+leaveChat.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendAudio.swift" /* Requests/TelegramBot+sendAudio.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction+Utils.swift" /* Requests/TelegramBot+sendChatAction+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendChatAction.swift" /* Requests/TelegramBot+sendChatAction.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendContact.swift" /* Requests/TelegramBot+sendContact.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendDocument.swift" /* Requests/TelegramBot+sendDocument.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendLocation.swift" /* Requests/TelegramBot+sendLocation.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage+Utils.swift" /* Requests/TelegramBot+sendMessage+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendMessage.swift" /* Requests/TelegramBot+sendMessage.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendPhoto.swift" /* Requests/TelegramBot+sendPhoto.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendSticker.swift" /* Requests/TelegramBot+sendSticker.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVenue.swift" /* Requests/TelegramBot+sendVenue.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVideo.swift" /* Requests/TelegramBot+sendVideo.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+sendVoice.swift" /* Requests/TelegramBot+sendVoice.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+setWebhook.swift" /* Requests/TelegramBot+setWebhook.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Requests/TelegramBot+unbanChatMember.swift" /* Requests/TelegramBot+unbanChatMember.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Arguments.swift" /* Router/Arguments.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Command.swift" /* Router/Command.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/ContentType.swift" /* Router/ContentType.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Context.swift" /* Router/Context.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router+Helpers.swift" /* Router/Router+Helpers.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Router/Router.swift" /* Router/Router.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Audio.swift" /* Types/Audio.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Bool+JsonConvertible.swift" /* Types/Bool+JsonConvertible.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/CallbackQuery.swift" /* Types/CallbackQuery.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat+Utils.swift" /* Types/Chat+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Chat.swift" /* Types/Chat.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember+Utils.swift" /* Types/ChatMember+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChatMember.swift" /* Types/ChatMember.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ChosenInlineResult.swift" /* Types/ChosenInlineResult.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Contact.swift" /* Types/Contact.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Document.swift" /* Types/Document.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/File.swift" /* Types/File.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ForceReply.swift" /* Types/ForceReply.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardButton.swift" /* Types/InlineKeyboardButton.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineKeyboardMarkup.swift" /* Types/InlineKeyboardMarkup.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQuery.swift" /* Types/InlineQuery.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultArticle.swift" /* Types/InlineQueryResultArticle.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultAudio.swift" /* Types/InlineQueryResultAudio.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedAudio.swift" /* Types/InlineQueryResultCachedAudio.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedDocument.swift" /* Types/InlineQueryResultCachedDocument.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedGif.swift" /* Types/InlineQueryResultCachedGif.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedMpeg4Gif.swift" /* Types/InlineQueryResultCachedMpeg4Gif.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedPhoto.swift" /* Types/InlineQueryResultCachedPhoto.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedSticker.swift" /* Types/InlineQueryResultCachedSticker.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVideo.swift" /* Types/InlineQueryResultCachedVideo.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultCachedVoice.swift" /* Types/InlineQueryResultCachedVoice.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultContact.swift" /* Types/InlineQueryResultContact.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultDocument.swift" /* Types/InlineQueryResultDocument.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultGif.swift" /* Types/InlineQueryResultGif.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultLocation.swift" /* Types/InlineQueryResultLocation.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultMpeg4Gif.swift" /* Types/InlineQueryResultMpeg4Gif.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultPhoto.swift" /* Types/InlineQueryResultPhoto.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVenue.swift" /* Types/InlineQueryResultVenue.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVideo.swift" /* Types/InlineQueryResultVideo.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InlineQueryResultVoice.swift" /* Types/InlineQueryResultVoice.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputContactMessageContent.swift" /* Types/InputContactMessageContent.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputFile.swift" /* Types/InputFile.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputLocationMessageContent.swift" /* Types/InputLocationMessageContent.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputMessageContent.swift" /* Types/InputMessageContent.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputTextMessageContent.swift" /* Types/InputTextMessageContent.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/InputVenueMessageContent.swift" /* Types/InputVenueMessageContent.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int+JsonObject.swift" /* Types/Int+JsonObject.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Int64+JsonConvertible.swift" /* Types/Int64+JsonConvertible.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/JSON+JsonObject.swift" /* Types/JSON+JsonObject.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/KeyboardButton.swift" /* Types/KeyboardButton.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Location.swift" /* Types/Location.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message+Command.swift" /* Types/Message+Command.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Message.swift" /* Types/Message.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/MessageEntity.swift" /* Types/MessageEntity.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/PhotoSize.swift" /* Types/PhotoSize.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardHide.swift" /* Types/ReplyKeyboardHide.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup+Utils.swift" /* Types/ReplyKeyboardMarkup+Utils.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/ReplyKeyboardMarkup.swift" /* Types/ReplyKeyboardMarkup.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Response.swift" /* Types/Response.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Sticker.swift" /* Types/Sticker.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/String+JsonConvertible.swift" /* Types/String+JsonConvertible.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Update.swift" /* Types/Update.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/User.swift" /* Types/User.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/UserProfilePhotos.swift" /* Types/UserProfilePhotos.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Venue.swift" /* Types/Venue.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Video.swift" /* Types/Video.swift in Sources */,
+				"__src_cc_ref_Packages/telegram-bot-swift-0.9.0/Sources/TelegramBot/Types/Voice.swift" /* Types/Voice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_hambre /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
+				1304F81C1D217C3C002BFC2E /* CustomObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_CryptoSwift /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CryptoSwift" /* CryptoSwift */;
+			targetProxy = 1304F8171D217C12002BFC2E /* PBXContainerItemProxy */;
+		};
+		__Dependency_SwiftyJSON /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = 1304F8161D217C12002BFC2E /* PBXContainerItemProxy */;
+		};
+		__Dependency_TelegramBot /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_TelegramBot" /* TelegramBot */;
+			targetProxy = 1304F8181D217C12002BFC2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_CryptoSwift /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = hambre.xcodeproj/CryptoSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SwiftyJSON /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = hambre.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_TelegramBot /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = hambre.xcodeproj/TelegramBot_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_hambre /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_CryptoSwift" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = hambre.xcodeproj/CryptoSwift_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SwiftyJSON" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = hambre.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_TelegramBot" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = hambre.xcodeproj/TelegramBot_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_hambre" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_hambre.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_hambre.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "hambre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_CryptoSwift" /* Build configuration list for PBXNativeTarget "CryptoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CryptoSwift" /* Debug */,
+				_ReleaseConf_CryptoSwift /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SwiftyJSON" /* Debug */,
+				_ReleaseConf_SwiftyJSON /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_TelegramBot" /* Build configuration list for PBXNativeTarget "TelegramBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_TelegramBot" /* Debug */,
+				_ReleaseConf_TelegramBot /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_hambre" /* Build configuration list for PBXNativeTarget "hambre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_hambre" /* Debug */,
+				_ReleaseConf_hambre /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
