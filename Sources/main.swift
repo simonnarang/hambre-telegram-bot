@@ -389,35 +389,30 @@ router["Settings"] = { context in
     return true
 }
 
-router["Breakfast"] = { context in
+router["Restaurants"] = { context in
     
     context.respondAsync("Looking for restaurants...")
     
     return true
 }
 
-router["Brunch"] = { context in
+router["Bars"] = { context in
     context.respondAsync("Looking for restaurants...")
     
     return true
 }
 
-router["Lunch"] = { context in
+router["Coffee&Tea"] = { context in
     context.respondAsync("Looking for restaurants...")
     return true
 }
 
-router["Linner"] = { context in
+router["Delivery"] = { context in
     context.respondAsync("Looking for restaurants...")
     return true
 }
 
-router["Dinner"] = { context in
-    context.respondAsync("Looking for restaurants...")
-    return true
-}
-
-router["Night"] = { context in
+router["Reservations"] = { context in
     context.respondAsync("Looking for restaurants...")
     return true
 }
@@ -431,35 +426,30 @@ router["Find"] = { context in
     
     var button1 = KeyboardButton()
     
-    button1.text = "Breakfast"
+    button1.text = "Restaurants"
     
     var button2 = KeyboardButton()
     
-    button2.text = "Brunch"
+    button2.text = "Bars"
     
     var button3 = KeyboardButton()
     
-    button3.text = "Lunch"
+    button3.text = "Coffee&Tea"
     
     var button4 = KeyboardButton()
     
-    button4.text = "Linner"
+    button4.text = "Delivery"
     
     var button5 = KeyboardButton()
     
-    button5.text = "Dinner"
-    
-    var button6 = KeyboardButton()
-    
-    button6.text = "Night"
+    button5.text = "Reservations"
     
     var button10 = KeyboardButton()
     
     button10.text = "⬅"
     
     markup.keyboard = [ [ button1, button2, button3 ],
-                        [ button4, button5, button6 ],
-                        [ button10]
+                        [ button4, button5, button10 ]
     ]
     
     context.respondAsync("Here are the options", ["reply_markup": markup])
