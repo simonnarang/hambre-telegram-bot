@@ -10,6 +10,7 @@ This bot is designed to find restaurants through the Telegram API
 1. Swift 3.0
 2. Mac OS X
 3. Wi-Fi connectivity  
+4. Connection to this Project's [Backend](github.com/simonnarang/Hambre-Backend)
 
 
 
